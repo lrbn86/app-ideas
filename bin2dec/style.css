@@ -1,0 +1,31 @@
+.container {
+  padding: 1rem;
+}
+
+.container div {
+  margin: 10px;
+}
+
+.outline {
+  outline: 1px solid #000;
+  border-radius: 5px;
+}
+
+.center {
+  max-width: 700px;
+  margin: 10% auto;
+}
+
+.title {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#result {
+  display: block;
+  margin: 20px auto;
+}
