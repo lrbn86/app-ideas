@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 700px;
+  margin: 10px auto;
+
+}
+
+.box {
+  border: 1px solid #000;
+  height: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: [label] 6em [input] 10em;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+input {
+  grid-column: input;
+  align-self: center;
+}
+
+label {
+  grid-column: label;
+  align-self: center;
+}
+
+.css-result {
+  font-style: italic;
+  cursor: copy;
+}
